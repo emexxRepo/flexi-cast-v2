@@ -1,7 +1,5 @@
 <template>
   <div class="home">
-
-
     <carousel autoplay>
       <slide v-for="slide in slides">
         <img :src="slide" alt="" class="img-fluid">
@@ -360,7 +358,6 @@ export default {
     };
   },
   components: {
-    HelloWorld,
     Carousel,
     Slide,
     PulseLoader,

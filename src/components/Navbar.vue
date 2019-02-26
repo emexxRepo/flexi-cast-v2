@@ -8,7 +8,7 @@
       <b-collapse is-nav id="nav_collapse">
         <b-navbar-nav>
           <router-link to="/" class="nav-link">Anasayfa</router-link>
-          <router-link to="/about" class="nav-link">Hakkımızda</router-link>
+          <router-link to="/hakkimizda" class="nav-link">Hakkımızda</router-link>
           <router-link to="/iletisim" class="nav-link">İletisim</router-link>
         </b-navbar-nav>
 

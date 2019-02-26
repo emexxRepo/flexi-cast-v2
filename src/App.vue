@@ -49,6 +49,13 @@ export default {
   data() {
     return {
       isDocumentReady: true,
+      icons: [
+        'fab fa-facebook',
+        'fab fa-twitter',
+        'fab fa-google-plus',
+        'fab fa-linkedin',
+        'fab fa-instagram'
+      ]
     };
   },
   created() {
